@@ -69,9 +69,9 @@ class Frame244Screen extends GetWidget<Frame244Controller> {
                                                         .textTheme.bodyMedium!
                                                         .copyWith(
                                                             height: 1.54)))),
-                                        CustomOutlinedButton(
+                                       CustomOutlinedButton(
                                             text: "Next".tr,
-                                            onTap: () {
+                                              onTap: () {
                                               Navigator.push(
                                                 context,
                                                 MaterialPageRoute(
@@ -91,7 +91,9 @@ class Frame244Screen extends GetWidget<Frame244Controller> {
                                                         .imgArrowrightGray90002)),
                                             buttonTextStyle: CustomTextStyles
                                                 .labelLargeInterGray90002)
-                                      ]))),
+                                      ])))
+
+                                  ,
                           CustomImageView(
                               imagePath: ImageConstant
                                   .imgCloseofgavelincourtroom251x317,
